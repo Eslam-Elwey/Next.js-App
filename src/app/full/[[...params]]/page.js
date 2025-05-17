@@ -3,7 +3,7 @@ import { useParams } from "next/navigation"
 
 
 
-function params() {
+function Params() {
 
     let {params} = useParams();
     params = JSON.stringify(params);
@@ -17,4 +17,4 @@ function params() {
     )
 }
 
-export default params
+export default Params
