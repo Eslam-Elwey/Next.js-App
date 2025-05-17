@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 
 
-function page() {
+function Page() {
 
     const {productId} = useParams();
     const pathName = usePathname() ;
@@ -18,4 +18,4 @@ function page() {
     )
 }
 
-export default page
+export default Page

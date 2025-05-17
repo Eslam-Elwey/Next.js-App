@@ -1,6 +1,6 @@
 
 
-async function page() {
+async function Page() {
 
     const getData= async()=>{
         const data = await fetch('https://6821d512b342dce8004bfd39.mockapi.io/users',{cache:"force-cache"}) ;
@@ -18,4 +18,4 @@ async function page() {
     )
 }
 
-export default page
+export default Page
